@@ -11,7 +11,7 @@
 
     <groupId>dev.ikm.tinkar</groupId>
     <artifactId>tinkar-core</artifactId>
-    <version>1.104.0-SNAPSHOT</version>
+    <version>1.104.0-IKDT-1016-changesetwriter-save-IT-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>IKM tinkar core</name>
