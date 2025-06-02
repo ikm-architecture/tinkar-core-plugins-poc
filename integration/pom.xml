@@ -33,6 +33,11 @@
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
+                <artifactId>changeset-writer-provider</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>composer</artifactId>
                 <version>${tinkar-composer.version}</version>
             </dependency>
@@ -66,9 +71,11 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>composer</artifactId>
-
         </dependency>
-
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>changeset-writer-provider</artifactId>
+        </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>data-spinedarray-provider</artifactId>
